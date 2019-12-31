@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="icon/js/all.js"></script>
+    <link rel="stylesheet" href="css/styleguide.css">
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -85,9 +86,463 @@
                 </div>
             </div>
             <div class="row">
+                <div class=" col-12 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <div class="card mt-3 tab-card">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab"
+                                           aria-controls="One" aria-selected="true">Color</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab"
+                                           aria-controls="Two" aria-selected="false">Grid</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab"
+                                           aria-controls="Three" aria-selected="false">Typography</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab"
+                                           aria-controls="Three" aria-selected="false">Images</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="five-tab" data-toggle="tab" href="#five" role="tab"
+                                           aria-controls="Three" aria-selected="false">Buttons</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="six-tab" data-toggle="tab" href="#six" role="tab"
+                                           aria-controls="Three" aria-selected="false">Headings</a>
+                                    </li>
 
-                   <img src="images/preview.jpg" height="1950" width="1250">
+
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="one" role="tabpanel"
+                                     aria-labelledby="one-tab">
+                                    <div class="col-lg-12 sg-section" id="sg-colors"><div class="sg-display"><br>
+                                        <h4>Main Colors</h4>
+                                        <div class="sg-color sg-brand-primary sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#57DAE6</span></span></div>
+                                        <div class="sg-color sg-gray-lighter sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#57DAE6</span></span></div>
+                                        <div class="sg-color sg-gray-light sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#57DAE6</span></span></div>
+                                        <div class="sg-color sg-gray sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#57DAE6</span></span></div>
+                                        <div class="sg-color sg-gray-dark sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#4dd3c9</span></span></div>
+                                        <div class="sg-color sg-gray-darker sg-lg"><span class="sg-color-swatch"><span class="sg-animated">#339db0</span></span></div>
+
+                                        <h4>Complementary Colors</h4>
+                                        <div class="sg-color sg-brand-success"><span class="sg-color-swatch"><span class="sg-animated">#384355</span></span></div>
+                                        <div class="sg-color sg-brand-warning"><span class="sg-color-swatch"><span class="sg-animated">#384355</span></span></div>
+                                        <div class="sg-color sg-brand-danger"><span class="sg-color-swatch"><span class="sg-animated">#384355</span></span></div>
+                                        <div class="sg-color sg-brand-info"><span class="sg-color-swatch"><span class="sg-animated">#384355</span></span></div>
+                                    </div><!--/.sg-display--></div>
+                                </div>
+                                <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                                    <div class="col-lg-12 sg-section" id="sg-grid"><div class="sg-display"> <br><h4>Grid</h4><div class="row show-grid">
+
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                        <div class="col-md-1">.col-md-1</div>
+                                    </div>
+                                        <div class="row show-grid">
+                                            <div class="col-md-8">.col-md-8</div>
+                                            <div class="col-md-4">.col-md-4</div>
+                                        </div>
+                                        <div class="row show-grid">
+                                            <div class="col-md-4">.col-md-4</div>
+                                            <div class="col-md-4">.col-md-4</div>
+                                            <div class="col-md-4">.col-md-4</div>
+                                        </div>
+                                        <div class="row show-grid">
+                                            <div class="col-md-6">.col-md-6</div>
+                                            <div class="col-md-6">.col-md-6</div>
+                                        </div>
+                                    </div><!--/.sg-display--></div>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                                    <div class="col-12 p-4">
+                                        <h3 class="mb-14">1. Font Family </h3>
+                                        <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+
+                                                <h5 style="font-family: 'Times New Roman'"> Time New Roman</h5>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h3 class="mb-14">2. Font Style </h3>
+                                        <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For Search</span>
+                                                <h6 class="mt-15"> Italic</h6>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h3 class="mb-14">3. Font Weight </h3>
+                                        <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For Home</span>
+                                                <h6 class="mt-15"> Bold</h6>
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For Search Title </span>
+                                                <h6 class="mt-15"> Bold</h6>
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For Article  Title </span>
+                                                <h6 class="mt-15"> Bold</h6>
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For Question </span>
+                                                <h6 class="mt-15"> Bold</h6>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h3 class="mb-14">4. Font size </h3>
+                                        <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                                <span> For All Web</span>
+                                                <p style="font-size: 18px;">18px</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
+                                    <div class="col-md-8"><h3 class="sg-h3">Example</h3>			<p>
+                                        <img src="http://placehold.it/120x100" class="img-rounded">
+                                        <img src="http://placehold.it/120x100" style="border-radius: 50%">
+                                        <img src="http://placehold.it/120x100" class="img-thumbnail">
+                                    </p>
+                                        <p>
+                                            <img src="http://placehold.it/1200x300" class="img-responsive"></p></div>
+                                </div>
+                                <div class="tab-pane fade" id="five" role="tabpanel" aria-labelledby="five-tab">
+                                    <div class="col-md-8"><br>
+                                        <h4>Button Groups</h4><!--sizes-->
+
+                                        <div class="btn-toolbar" role="toolbar">
+                                            <div class="btn-group btn-group-lg">
+                                                <button type="button" class="btn btn-default">Left</button> <button type="button" class="btn btn-default">Middle</button> <button type="button" class="btn btn-default">Right</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="btn-toolbar" role="toolbar">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Left</button> <button type="button" class="btn btn-default">Middle</button> <button type="button" class="btn btn-default">Right</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="btn-toolbar" role="toolbar">
+                                                <div class="btn-group btn-group-sm">
+                                                    <button type="button" class="btn btn-default">Left</button> <button type="button" class="btn btn-default">Middle</button> <button type="button" class="btn btn-default">Right</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="btn-toolbar" role="toolbar">
+                                                <div class="btn-group btn-group-xs">
+                                                    <button type="button" class="btn btn-default">Left</button> <button type="button" class="btn btn-default">Middle</button> <button type="button" class="btn btn-default">Right</button>
+                                                </div>
+                                            </div>
+                                        </div><!--with dropdown-->
+<br>
+                                        <h4>With Dropdown</h4>
+
+                                        <div class="col-md-12">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-default">1</button> <button type="button" class="btn btn-default">2</button>
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Dropdown link</a></li>
+
+                                                        <li><a href="#">Dropdown link</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!--vertical-->
+<br>
+                                        <h4>Vertical</h4>
+
+                                        <div class="col-md-12">
+                                            <div class="btn-group-vertical">
+                                                <button type="button" class="btn btn-default">Button</button> <button type="button" class="btn btn-default">Button</button>
+
+                                                <div class="btn-group">
+                                                    <button id="btnGroupVerticalDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop1">
+                                                        <li><a href="#">Dropdown link</a></li>
+
+                                                        <li><a href="#">Dropdown link</a></li>
+                                                    </ul>
+                                                </div><button type="button" class="btn btn-default">Button</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <!--justified-->
+<br>
+                                            <h4>Justified</h4>
+
+                                            <div class="btn-group btn-group-justified">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Left</button>
+                                                </div>
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Middle</button>
+                                                </div>
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Right</button>
+                                                </div>
+                                            </div>
+<br>
+                                            <h4>Dropdowns</h4>
+
+                                            <div class="col-md-12">
+                                                <!-- Split button -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Default</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Primary</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Info</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Danger</button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <!--split-->
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Default</button>
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                        <span class="caret"></span>
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary">Primary</button> <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> <span class="sr-only">Toggle Dropdown</span><span class="caret"></span></button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-success">Success</button> <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-info">Info</button> <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> <span class="sr-only">Toggle Dropdown</span></button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-warning">Warning</button> <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> <span class="sr-only">Toggle Dropdown</span></button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-danger">Danger</button> <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
+
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Action</a></li>
+
+                                                        <li><a href="#">Another action</a></li>
+
+                                                        <li><a href="#">Something else here</a></li>
+
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div><!-- /btn-group -->
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <!-- Large button group -->
+
+                                                <div class="btn-group">
+                                                    <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">Large button</button>
+
+                                                    <div style="margin-left: 2em" class="dropdown-menu">
+                                                        ...
+                                                    </div>
+                                                </div><!-- Small button group -->
+
+                                                <div class="btn-group">
+                                                    <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Small button</button>
+
+                                                    <div style="margin-left: 2em" class="dropdown-menu">
+                                                        ...
+                                                    </div>
+                                                </div><!-- Extra small button group -->
+
+                                                <div class="btn-group">
+                                                    <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Extra small button</button>
+
+                                                    <div style="margin-left: 2em" class="dropdown-menu">
+                                                        ...
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div></div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="six" role="tabpanel" aria-labelledby="six-tab">
+                                        <div class="row"><div class="col-md-8"><h1 class="page-header">Page Header <small>With Small Text</small></h1>
+                                        <br>    <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+                                        <br>    <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+                                            <br>   <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+                                            <br> <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+                                            <br><h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+                                            <br><h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+                                        </div>
+                                        </div></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
 
         </div>
     </div>
